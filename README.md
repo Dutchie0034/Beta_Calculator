@@ -22,7 +22,7 @@ This project provides a set of functions to calculate and visualize financial be
 6. Dependencies
 
 ## Installation
-Ensure that you have the required libraries installed. You can install them using:
+Ensure that you have the required libraries installed. You can install them using: <br>
 pip install pandas matplotlib seaborn yfinance scikit-learn
 
 
