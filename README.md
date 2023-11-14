@@ -4,21 +4,21 @@
 This project provides a set of functions to calculate and visualize financial betas for selected stocks using daily returns and a market proxy. It includes functionalities for user input, data retrieval, beta calculation, and scatterplot visualization.
 
 ## Table of Contents
-1. Installation
-2. Usage
-3. Functions
-    - get_stock_tickers
-    - user_input_find_weekday
-    - find_weekday_x_days_ago
-    - import_adj_close_data
-    - calc_daily_returns
-    - align_dataframes
-    - calculate_betas
-    - beta_scatterplot
-    - save_all_scatterplots
-4. Main Script
-5. Example Usage
-6. Dependencies
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Functions](#functions)
+    - [get_stock_tickers](#get_stock_tickers)
+    - [user_input_find_weekday](#user_input_find_weekday)
+    - [find_weekday_x_days_ago](#find_weekday_x_days_ago)
+    - [import_adj_close_data](#import_adj_close_data)
+    - [calc_daily_returns](#calc_daily_returns)
+    - [align_dataframes](#align_dataframes)
+    - [calculate_betas](#calculate_betas)
+    - [beta_scatterplot](#beta_scatterplot)
+    - [save_all_scatterplots](#save_all_scatterplots)
+4. [Main Script](#main-script)
+5. [Example Usage](#example-usage)
+6. [Dependencies](#dependencies)
 
 ## Installation
 Ensure that you have the required libraries installed. You can install them using: <br>
