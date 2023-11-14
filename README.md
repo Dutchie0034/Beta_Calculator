@@ -67,7 +67,7 @@ To use the functions provided in this project, run the main() function in the sc
 - If the user wants, save all scatterplots to a user-defined place.
 
 ## Main Script
-The main script initializes the project, gets user inputs which stocks in which time frame should be analysed, retrieves data from Yahoo Finance through an API at yfinance, calculates betas, visualizes 1 scatterplot and asks the user if they want to save all scatterplots.
+The main script initializes the project, gets user inputs which stocks in which time frame should be analysed, retrieves data from Yahoo Finance through an API at yfinance, calculates betas, visualizes 1 scatterplot and asks the user if and where they want to save all scatterplots.
 
 ## Example Usage
 python financial_beta_calculator.py
