@@ -1,5 +1,4 @@
-# Beta_Calculator 
-## Financial Beta Calculator and Visualizer
+# Financial Beta Calculator and Visualizer
 
 ## Overview
 This project provides a set of functions to calculate and visualize financial betas for selected stocks using daily returns and a market proxy. It includes functionalities for user input, data retrieval, beta calculation, and scatterplot visualization.
@@ -71,6 +70,7 @@ To use the functions provided in this project, run the main() function in the sc
 The main script initializes the project, gets user inputs which stocks in which time frame should be analysed, retrieves data from Yahoo Finance through an API at yfinance, calculates betas, visualizes 1 scatterplot and asks the user if they want to save all scatterplots.
 
 ## Example Usage
+```python
 python financial_beta_calculator.py
 
 ## Dependencies
