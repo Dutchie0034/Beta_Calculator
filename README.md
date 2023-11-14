@@ -70,12 +70,11 @@ To use the functions provided in this project, run the main() function in the sc
 The main script initializes the project, gets user inputs which stocks in which time frame should be analysed, retrieves data from Yahoo Finance through an API at yfinance, calculates betas, visualizes 1 scatterplot and asks the user if they want to save all scatterplots.
 
 ## Example Usage
-```python
 python financial_beta_calculator.py
 
 ## Dependencies
-- pandas
-- matplotlib
-- seaborn
-- yfinance
-- scikit-learn
+- [pandas](https://pandas.pydata.org/docs/)
+- [matplotlib](https://matplotlib.org/stable/index.html)
+- [seaborn](https://seaborn.pydata.org/)
+- [yfinance](https://pypi.org/project/yfinance/)
+- [scikit-learn](https://scikit-learn.org/stable/)
