@@ -24,7 +24,7 @@ Ensure that you have the required libraries installed. You can install them usin
 pip install pandas matplotlib seaborn yfinance scikit-learn
 
 
-## Usage/Main Script
+## Usage
 To use the functions provided in this project, run the main() function in the script. It executes the following steps
 1. The program will ask you to choose at least 2 stock tickers (from a list of 175 tickers)
 2. You choose how many weekdays into the past the analysis should take into account
