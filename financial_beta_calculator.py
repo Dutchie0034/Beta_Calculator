@@ -404,7 +404,8 @@ def main():
   betas_df = calculate_betas(returns_stock_df, returns_mkt_df)
   print(f"\nThe table below shows the betas using daily returns over the following timeframe: {start_date} until {end_date}")
   print(betas_df)
-  
+
+  print("Please close the popped up image before the program can continue")
   save_all_scatterplots(returns_stock_df, returns_mkt_df)
 
 
