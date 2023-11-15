@@ -24,7 +24,7 @@ Ensure that you have the required libraries installed. You can install them usin
 ```python
 pip install pandas matplotlib seaborn yfinance scikit-learn <br>
 ```
-<br>
+
 The program also uses the pre-installed os and datetime packages
 
 
