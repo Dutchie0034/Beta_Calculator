@@ -58,12 +58,12 @@ def user_input_find_weekday():
       # Get user input for the number of weekdays
       x = int(
           input(
-              "Enter the number of weekdays you want to include in the analysis from now into the past. Please note: to have representative data include at least 10 days : "
+              "Enter the number of weekdays (greater than 1) you want to include in the analysis from now into the past. Please note: to have representative data include at least 10 days : "
           ))
 
       # Validate input
-      if x <= 0:
-        raise ValueError("Please enter a positive integer.\n")
+      if x <= 1:
+        raise ValueError("Please enter a positive integer bigger than 1.\n")
       elif x > 7500:
         raise ValueError("Please enter a number less than 7,500.\n")
 
