@@ -5,7 +5,7 @@ This project provides a set of functions to calculate and visualize financial be
 
 ## Table of Contents
 1. [Installation](#installation)
-2. [Usage/Main Script](#Usage/MainScript)
+2. [Usage/Main Script](#Usage/Main-Script)
 3. [Functions](#functions)
     - [get_stock_tickers](#get_stock_tickers)
     - [user_input_find_weekday](#user_input_find_weekday)
@@ -24,7 +24,7 @@ Ensure that you have the required libraries installed. You can install them usin
 pip install pandas matplotlib seaborn yfinance scikit-learn
 
 
-## Usage/Main Script
+## Usage/Main-Script
 To use the functions provided in this project, run the main() function in the script. It executes the following steps
 1. The program will ask you to choose at least 2 stock tickers (from a list of 175 tickers)
 2. You choose how many weekdays into the past the analysis should take into account
