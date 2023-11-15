@@ -27,7 +27,7 @@ def get_stock_tickers(allowed_tickers):
         "Enter a stock ticker to include in the analysis (or 'done' to finish): "
     ).upper()
     
-    
+    # Validate input
     if ticker == 'DONE':
       if len(selected_tickers) < 2 :
         print("Please select more tickers\n")
@@ -121,6 +121,7 @@ def import_adj_close_data(stocks, start_date, end_date):
   Returns:
   - pd.DataFrame: DataFrame with the selected tickers and start and end dates.
   """
+  # Download the data through the yfinance API
   data_df = yf.download(stocks, start_date, end_date)
   return data_df["Adj Close"]
 
@@ -340,7 +341,7 @@ def save_all_scatterplots(stock_returns, market_returns):
                     "\nThank you for using this program. I hope this program was useful for you. Feel free to run it again"
                   )
                   break  # Exit the loop if the user successfully saves the plot
-          # Use Error Handling if the user enters an invalid path
+              # Use Error Handling if the user enters an invalid path
               except (FileNotFoundError, PermissionError) as e:
                   print(f"\nError: {e}. Please enter a valid file path.")
           else:
