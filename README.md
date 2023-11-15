@@ -21,7 +21,9 @@ This project provides a set of functions to calculate and visualize financial be
 
 ## Installation
 Ensure that you have the required libraries installed. You can install them using: <br>
+```python
 pip install pandas matplotlib seaborn yfinance scikit-learn <br>
+```
 The program also uses the pre-installed os and datetime packages
 
 
