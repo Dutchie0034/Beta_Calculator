@@ -58,7 +58,7 @@ def user_input_find_weekday():
       # Get user input for the number of weekdays
       x = int(
           input(
-              "Enter the number of weekdays you want to include in the analysis from now into the past. Please note: to have represenative data include at least 10 days : "
+              "Enter the number of weekdays you want to include in the analysis from now into the past. Please note: to have representative data include at least 10 days : "
           ))
 
       # Validate input
