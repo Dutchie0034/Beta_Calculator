@@ -327,7 +327,7 @@ def save_all_scatterplots(stock_returns, market_returns):
     if save_plots == 'YES':
       while True:
       # Get the file path from the user
-          file_path = input("\nEnter only the file path of the destination folder")
+          file_path = input("\nEnter only the file path of the destination folder: ")
           if os.path.exists(file_path):   
               try:
             # Save each plot and add the ticker to the name of the file
