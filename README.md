@@ -5,7 +5,7 @@ This project provides a set of functions to calculate and visualize financial be
 
 ## Table of Contents
 1. [Installation](#installation)
-2. [Usage](#usage)
+2. [Usage/Main Script](#Usage/Main Script)
 3. [Functions](#functions)
     - [get_stock_tickers](#get_stock_tickers)
     - [user_input_find_weekday](#user_input_find_weekday)
@@ -16,7 +16,6 @@ This project provides a set of functions to calculate and visualize financial be
     - [calculate_betas](#calculate_betas)
     - [beta_scatterplot](#beta_scatterplot)
     - [save_all_scatterplots](#save_all_scatterplots)
-4. [Main Script](#main-script)
 5. [Example Usage](#example-usage)
 6. [Dependencies](#dependencies)
 
@@ -25,8 +24,16 @@ Ensure that you have the required libraries installed. You can install them usin
 pip install pandas matplotlib seaborn yfinance scikit-learn
 
 
-## Usage
-To use the functions provided in this project, run the main() function in the script.
+## Usage/Main Script
+To use the functions provided in this project, run the main() function in the script. It executes the following steps
+1. The program will ask you to choose at least 2 stock tickers (from a list of 175 tickers)
+2. You choose how many weekdays into the past the analysis should take into account
+3. The program will fetch every daily adj. close of your selected tickers and the S&P 500 (in a pandas dataframe) through the yfinance API from x weekdays ago until yesterday
+4. The program will calculate the daily returns of all tickers and the S&P 500
+5. The program will calculate the betas (using a linear regression from scikit-learn) and display them to you
+6. The program will show you an example of a scatterplot (using seaborn and matplotlib) regressing a stock with the market over the defined time period
+7. You have the option to input a path to which the program saves .png images of the scatterplot of all your selected stocks
+8. The program ends
 
 ## Functions
 
@@ -66,10 +73,8 @@ To use the functions provided in this project, run the main() function in the sc
 ### save_all_scatterplots
 - If the user wants, save all scatterplots to a user-defined place.
 
-## Main Script
-The main script initializes the project, gets user inputs which stocks in which time frame should be analysed, retrieves data from Yahoo Finance through an API at yfinance, calculates betas, visualizes 1 scatterplot and asks the user if and where they want to save all scatterplots.
 
-## Example Usage
+## Execution
 python financial_beta_calculator.py
 
 ## Dependencies
