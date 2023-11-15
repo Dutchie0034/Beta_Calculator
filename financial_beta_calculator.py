@@ -63,9 +63,9 @@ def user_input_find_weekday():
 
       # Validate input
       if x <= 0:
-        raise ValueError("Please enter a positive integer.")
+        raise ValueError("Please enter a positive integer.\n")
       elif x > 7500:
-        raise ValueError("Please enter a number less than 7,500.")
+        raise ValueError("Please enter a number less than 7,500.\n")
 
       # Call the function to find the weekday x weekdays ago
       result_date = find_weekday_x_days_ago(x)
