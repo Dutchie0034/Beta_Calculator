@@ -5,7 +5,7 @@ This project provides a set of functions to calculate and visualize financial be
 
 ## Table of Contents
 1. [Installation](#installation)
-2. [Usage/Main Script](#Usage/Main Script)
+2. [Usage/Main Script](#Usage/MainScript)
 3. [Functions](#functions)
     - [get_stock_tickers](#get_stock_tickers)
     - [user_input_find_weekday](#user_input_find_weekday)
