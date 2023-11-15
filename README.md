@@ -32,8 +32,9 @@ To use the functions provided in this project, run the main() function in the sc
 4. The program will calculate the daily returns of all tickers and the S&P 500
 5. The program will calculate the betas (using a linear regression from scikit-learn) and display them to you
 6. The program will show you an example of a scatterplot (using seaborn and matplotlib) regressing a stock with the market over the defined time period
-7. You have the option to input a path to which the program saves .png images of the scatterplot of all your selected stocks
-8. The program ends
+7. Please close it before the program will continue
+8. You have the option to input a path to which the program saves .png images of the scatterplot of all your selected stocks
+9. The program ends
 
 ## Functions
 
