@@ -76,6 +76,7 @@ To use the functions provided in this project, run the main() function in the sc
 
 
 ## Execution
+Please download the financial_beta_calculator.py file and run the following script in your command line:
 python financial_beta_calculator.py
 
 ## Dependencies
