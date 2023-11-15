@@ -16,7 +16,7 @@ This project provides a set of functions to calculate and visualize financial be
     - [calculate_betas](#calculate_betas)
     - [beta_scatterplot](#beta_scatterplot)
     - [save_all_scatterplots](#save_all_scatterplots)
-5. [Example Usage](#example-usage)
+5. [Execution](#execution)
 6. [Dependencies](#dependencies)
 
 ## Installation
